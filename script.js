@@ -1,4 +1,4 @@
-// basics of node. operates just like js
+///////////// basics of node. operates just like js
 
 // const name = 'ashley';
 
@@ -19,17 +19,21 @@
 
 //////////////////////////////////////////////////////////////////////////////////
 
-// global object
+/////////// global object
 
 //console.log(global)
 
 // set timeout will run once in 3 seconds
-global.setTimeout(() => {
-    console.log('in the timeout');
-    clearInterval(int) // clearing the int set interval when the timeout of 3 seconds is reached
-}, 3000);
+// global.setTimeout(() => {
+//     console.log('in the timeout');
+//     clearInterval(int) // clearing the int set interval when the timeout of 3 seconds is reached
+// }, 3000);
 
 // set interval will run every 1 second
-const int = setInterval(() => {
-    console.log('in the interval')
-}, 1000)
+// const int = setInterval(() => {
+//     console.log('in the interval')
+// }, 1000)
+
+// console.log(__dirname);
+// console.log(__filename);
+
